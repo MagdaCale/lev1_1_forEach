@@ -26,7 +26,7 @@ let checkNumber = [18,16,80,51,47,38,95,42,68,61,34,51,20,17,56,31,100,6,5,30,74
 checkNumber.forEach((item, index) =>{
 
     if(checkNumber[index] % 3 == 0) {
-        document.write(`${checkNumber[index]}  ist durch 3 teilbar = ` )
+        document.write(`${checkNumber[index]} ist durch 3 teilbar = ` )
         checkNumber[index] += 100
     }
     document.write(`${checkNumber[index]} <br>`)
